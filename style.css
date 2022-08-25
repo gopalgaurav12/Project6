@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Allerta';
+  }
+
+  nav#navbarMonstera {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  div#navMid {
+    display: flex;
+    justify-content: space-between;
+    width: 501px;
+  }
+
+  div#navEnd {
+    display: flex;
+  }
+
+  div#navEnd img {
+    width: 14px;
+    margin: 0 20px;
+  }
+
+  div#navFirst img {
+    width: 100px;
+  }
+
+  div#midWhole {
+    display: flex;
+    position: relative;
+  }
+  div#navMid div h4:hover {
+  border-bottom: 2px solid;
+}
+
+  .midWholepart2 {
+    width: 45%;
+    position: relative;
+  }
+
+  #imgmain {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 100%;
+  }
+
+  h1#monstera {
+    font-size: 80px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div#midWholePart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 55%;
+    position: relative;
+  }
+
+
+  div#midWholePart11 {
+    padding: 0 0 0 76px;
+  }
+
+  div#midWholePart13 {
+    display: flex;
+    padding: 0 0 0 60px;
+    position: absolute;
+    bottom: 25px;
+  }
+
+  div#midWholePart121 {
+    display: flex;
+    background: #476D51;
+    color: #fff;
+    width: max-content;
+    padding: 10px 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 15px;
+  }
+
+  div#midWholePart12 {
+    padding: 50px 60px;
+  }
+
+  div#midWholePart122 {
+    margin-left: 13px;
+  }
+
+  .midWholePart13Parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+  }
+
+  img#feeding {
+    width: 74px;
+    padding-right: 10px;
+  }
+
+  img#light {
+    padding: 10px;
+    width: 50px;
+  }
+
+  img#care {
+    padding: 10px;
+    width: 60px;
+  }
+
+  h4 {
+    font-size: 14px;
+    /* padding-bottom: 5px; */
+  }
+
+  div#navMid div h4 {
+  cursor: pointer;
+}
+
+  p.text {
+    font-size: 10px;
+    /* flex: 1 0 0; */
+  }
+
+  img#imgMain {
+    width: 100%;
+  }
